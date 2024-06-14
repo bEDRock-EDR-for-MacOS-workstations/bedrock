@@ -19,19 +19,4 @@ reference: https://github.com/golang-standards/project-layout
 ### Installing
 ...
 
-## Contributing
-We are using truncate to format the code, so please use it before sending a pull request.
 
-The branch pattern should be:
-
-| Branch name            | Purpose                        |
-|------------------------|--------------------------------|
-| `feat/<ticket-id>`     | Feature implementations        |
-| `fix/<ticket-id>`      | Fixing bugs                    |
-| `docs/<ticket-id>`     | Adding documentation           |
-| `style/<ticket-id>`    | Just code style organizations  |
-| `chore/<ticket-id>`    | Cleaning tasks or general ones |
-| `refactor/<ticket-id>` | Code structure being changed   |
-
-
-They should always be created from `main` branch, and then create a PR to development branches as needed.
